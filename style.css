@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.links li{
+    display: inline-block;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.links li a{
+    text-decoration: none;
+    color: rgb(196, 132, 132);
+    font-size: 3em;
+    padding: 1.5em;
+    transition: all 400ms ease-in-out;
+}
