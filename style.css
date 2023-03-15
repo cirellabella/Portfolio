@@ -21,3 +21,49 @@
     padding: 1.5em;
     transition: all 400ms ease-in-out;
 }
+
+html{
+    background-color:rgba(224, 219, 139, 0.363);
+    max-width: 1900px; 
+    min-width: 300px;
+}
+
+footer{
+    min-width: 300px;
+    font-size: medium;
+}
+
+
+body {
+    font-size: 20px;
+    height: 65vh;
+    width: 90%;
+    background-color:#353232;
+    font-family: 'Monserrat';
+    min-width: 300px;
+    margin: 0 auto;
+   
+}
+
+header{
+    font-size: medium;
+}
+
+button {
+    background-color:#353232;
+    border-radius: 0.2em;
+    border: none;
+    font-size: 0.8em;
+    color:#FFFFFF;
+    padding: 0.5em;
+    text-align: center;
+    transition: all 500ms ease-in-out;
+}
+
+button:hover{
+    background-color: rgb(196, 132, 132);
+}
+
+.nav-container{
+
+}
