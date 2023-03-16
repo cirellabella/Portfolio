@@ -189,4 +189,43 @@ button:hover{
     margin-bottom: 0.25rem;
 }
 
+.projects-first{
+    margin-top: 2rem;
+}
+
+.pgsite{
+    height: 600px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-bottom: 1.5rem;
+}
+  
+.column {
+    flex: 33%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.pgsitefinal{
+    height: 1200px;
+    width: 555px;
+}
+
+.projects-first h1{
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+.projects-first a{
+    color: #353232;
+}
 
