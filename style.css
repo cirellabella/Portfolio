@@ -40,7 +40,6 @@
 
 
 html{
-    /* background-color:rgba(224, 219, 139, 0.363); */
     background-color:rgb(247, 195, 195);
     max-width: 1900px; 
     min-width: 300px;
@@ -61,8 +60,8 @@ html{
 }
 
 .img-logo{
-    width: 450px;
-    height: 450px;
+    width: 45%;
+    height: 85%;
 }
 
 header{
@@ -79,7 +78,7 @@ footer{
 
 body {
     font-size: 20px;
-    height: 50vh;
+    height: 53vh;
     width: 90%;
     background-color:#353232;
     font-family: 'Monserrat';
@@ -226,8 +225,8 @@ button:hover{
 }
 
 .pgsite:hover{
-    width: 300px;
-    height: 300px;
+    width: 25%;
+    height: 25%;
 }
 
 .pgsite2{
@@ -238,8 +237,8 @@ button:hover{
 }
 
 .pgsite2:hover{
-    width: 300px;
-    height: 300px;
+    width: 25%;
+    height: 25%;
 }
 
 .row {
@@ -262,13 +261,13 @@ button:hover{
 
 .pgsitefinal{
     height: 1200px;
-    width: 555px;
+    width: 100%;
     transition: width 3s;
     transition-delay: 1s;
 }
 
 .pgsitefinal:hover{
-    width: 300px;
+    width: 25%;
 }
 
 .projects-first h1{
@@ -349,7 +348,7 @@ button:hover{
 }
 
 .spotsite:hover {
-    width: 300px;
+    width: 25%;
 }
 
 .projects-third{
@@ -388,7 +387,7 @@ button:hover{
     animation-name: slide-left;
     animation-duration: 4s;
     height: 600px;
-    width: 850px;
+    width: 49.5%;
 }
 
 .imgtwo{
@@ -396,7 +395,7 @@ button:hover{
     animation-name: slide-right;
     animation-duration: 4s;
     height: 600px;
-    width: 850px;
+    width: 49.5%;
 }
 
 @keyframes slide-left {
@@ -414,7 +413,7 @@ button:hover{
     animation-name: slide-top;
     animation-duration: 4s;
     height: 600px;
-    width: 850px;
+    width: 49.5%;
 }
 
 .imgfour{
@@ -422,7 +421,7 @@ button:hover{
     animation-name: slide-bottom;
     animation-duration: 4s;
     height: 600px;
-    width: 850px;
+    width: 49.5%;
 }
 
 @keyframes slide-bottom{
@@ -440,7 +439,7 @@ button:hover{
     animation-name: slide-left;
     animation-duration: 4s;
     height: 400px;
-    width: 650px;
+    width: 45%;
 }
 
 .index-first h1{
