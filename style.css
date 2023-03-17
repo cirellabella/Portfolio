@@ -38,6 +38,7 @@
     transition: all 400ms ease-in-out;
 }
 
+
 html{
     /* background-color:rgba(224, 219, 139, 0.363); */
     background-color:rgb(247, 195, 195);
@@ -189,6 +190,8 @@ button:hover{
     margin-bottom: 0.25rem;
 }
 
+/* --------------------------------------------------------------------------------Projects Page---------------------------------------------------------------------------- */
+
 .projects-first{
     margin-top: 2rem;
 }
@@ -196,6 +199,25 @@ button:hover{
 .pgsite{
     height: 600px;
     width: 100%;
+    transition: width 3s;
+    transition-delay: 1s;
+}
+
+.pgsite:hover{
+    width: 300px;
+    height: 300px;
+}
+
+.pgsite2{
+    height: 600px;
+    width: 100%;
+    transition: width 3s;
+    transition-delay: 1s;
+}
+
+.pgsite2:hover{
+    width: 300px;
+    height: 300px;
 }
 
 .row {
@@ -218,9 +240,25 @@ button:hover{
 .pgsitefinal{
     height: 1200px;
     width: 555px;
+    transition: width 3s;
+    transition-delay: 1s;
+}
+
+.pgsitefinal:hover{
+    width: 300px;
 }
 
 .projects-first h1{
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+.projects-second h1{
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+.projects-third h1{
     text-align: center;
     margin-bottom: 0.2rem;
 }
@@ -229,3 +267,55 @@ button:hover{
     color: #353232;
 }
 
+.projects-second a{
+    color: #353232;
+}
+
+.projects-third a{
+    color: #353232;
+}
+
+.projects-first p{
+    color: #353232;
+    text-shadow: 1px 1px 2px #FFFFFF;
+    font-size: 1.2rem; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects-second p{
+    color: #353232;
+    text-shadow: 1px 1px 2px #FFFFFF;
+    font-size: 1.2rem; 
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projects-third p{
+    color: #353232;
+    text-shadow: 1px 1px 2px #FFFFFF;
+    font-size: 1.2rem; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tmsite{
+    height: 450px;
+    width: 49%;
+    transform: translateX(5px) rotate(2deg) translateY(5px);
+}
+
+.spotsite{
+    width: 50%;
+    transition: width 3s;
+    transition-delay: 1s;
+}
+
+.spotsite:hover {
+    width: 300px;
+}
+
+.projects-third{
+    text-align: center;
+}
