@@ -193,7 +193,29 @@ button:hover{
 /* --------------------------------------------------------------------------------Projects Page---------------------------------------------------------------------------- */
 
 .projects-first{
+    width: 100%;
+    height: 332%;
+    border: 2px solid transparent;
+    box-shadow: 0 0 2.5em #353232;
+    margin: 0 auto;
+}
+
+.projects-second{
     margin-top: 2rem;
+    width: 100%;
+    height: 152%;
+    border: 2px solid transparent;
+    box-shadow: 0 0 2.5em #353232;
+    margin: 0 auto;
+}
+
+.projects-third{
+    margin-top: 4rem;
+    width: 100%;
+    height: 128%;
+    border: 2px solid transparent;
+    box-shadow: 0 0 2.5em #353232;
+    margin: 0 auto;
 }
 
 .pgsite{
@@ -221,6 +243,7 @@ button:hover{
 }
 
 .row {
+    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
@@ -301,12 +324,25 @@ button:hover{
 }
 
 .tmsite{
+    margin-top: 1.5rem;
     height: 450px;
     width: 49%;
     transform: translateX(5px) rotate(2deg) translateY(5px);
+    animation-name: slide-left;
+    animation-duration: 4s;
+}
+
+.tmsite2{
+    margin-top: 1.5rem;
+    height: 450px;
+    width: 49%;
+    transform: translateX(5px) rotate(2deg) translateY(5px);
+    animation-name: slide-right;
+    animation-duration: 4s;
 }
 
 .spotsite{
+    margin-top: 1.5rem;
     width: 50%;
     transition: width 3s;
     transition-delay: 1s;
@@ -319,3 +355,118 @@ button:hover{
 .projects-third{
     text-align: center;
 }
+
+/* -----------------------------------------------------------Index/ Home Page------------------------------------------------------------------------------ */
+
+.index-first{
+    width: 100%;
+    height: 158%;
+    border: 2px solid transparent;
+    box-shadow: 0 0 2.5em #353232;
+    margin: 0 auto;
+}
+
+.index-second{
+    width: 100%;
+    height: 158%;
+    border: 2px solid transparent;
+    box-shadow: 0 0 2.5em #353232;
+    margin: 0 auto;
+}
+
+.index-third{
+    width: 100%;
+    height: 110%;
+    border: 2px solid transparent;
+    box-shadow: 0 0 2.5em #353232;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imgone{
+    margin-top: 1rem;
+    animation-name: slide-left;
+    animation-duration: 4s;
+    height: 600px;
+    width: 850px;
+}
+
+.imgtwo{
+    margin-top: 1rem;
+    animation-name: slide-right;
+    animation-duration: 4s;
+    height: 600px;
+    width: 850px;
+}
+
+@keyframes slide-left {
+    from{ transform: translateX(-90em)}
+    to{ transform: translateX(0)}
+  }
+
+@keyframes slide-right{
+    from{ transform: translateX(90em)}
+    to{ transform: translateX(0)}
+}
+
+.imgthree{
+    margin-top: 1rem;
+    animation-name: slide-top;
+    animation-duration: 4s;
+    height: 600px;
+    width: 850px;
+}
+
+.imgfour{
+    margin-top: 1rem;
+    animation-name: slide-bottom;
+    animation-duration: 4s;
+    height: 600px;
+    width: 850px;
+}
+
+@keyframes slide-bottom{
+    from{ transform: translateY(90em)}
+    to{ transform: translateY(0)}
+}
+
+@keyframes slide-top{
+    from{ transform: translateY(-90em)}
+    to{ transform: translateY(0);}
+}
+
+.imgfive{
+    margin-top: 1rem;
+    animation-name: slide-left;
+    animation-duration: 4s;
+    height: 400px;
+    width: 650px;
+}
+
+.index-first h1{
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+.index-second h1{
+    text-align: center;
+    margin-bottom: 0.2rem;    
+}
+
+.index-third h1{
+    text-align: center;
+    margin-bottom: 0.2rem;   
+}
+
+.index-first a, p{
+    color: #353232
+}
+
+.index-second a, p{
+    color: #353232    
+}
+
+.index-third a, p{
+    color: #353232    
+}
+
