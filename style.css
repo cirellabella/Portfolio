@@ -71,6 +71,10 @@ html{
 
 header{
     font-size: medium;
+    height: 53vh;
+    width: 100%;
+    background-color:#353232;    
+    margin: 0 auto;
 }
 
 footer{
@@ -84,15 +88,17 @@ footer{
 
 body {
     font-size: 20px;
-    height: 53vh;
-    width: 90%;
-    background-color:#353232;
     font-family: 'Monserrat';
-    min-width: 300px;
+    min-width: 300px;   
+    width: 90%;    
     margin: 0 auto;
-   
+    height:100%;
 }
 
+
+
+
+/* ----------------------------------------------------------------------Contact Me Page------------------------------------------------------------------ */
 
 button {
     background-color:#353232;
@@ -109,13 +115,13 @@ button:hover{
     background-color: rgb(196, 132, 132);
 }
 
+.contact-body{
+    height: 54vh;
+}
 
-
-
-/* ----------------------------------------------------------------------Contact Me Page------------------------------------------------------------------ */
 .connect{
     width: 100%;
-    height: 130%;
+    height: 102%;
     border: 2px solid transparent;
     box-shadow: 0 0 2.5em #353232;
     margin: 0 auto;
@@ -125,7 +131,7 @@ button:hover{
 	background-color:#585454;
 	border-radius: 0.35rem;
     max-width: 70%;
-    margin-top: 7em;
+    margin-top: 5.5em;
     margin-bottom: 15px;
 	overflow: hidden;
 	position: relative;
@@ -267,7 +273,7 @@ button:hover{
 }
 
 .pgsitefinal{
-    height: 100%;
+    height: 100.5%;
     width: 100%;
     transition: width 3s;
     transition-delay: 1s;
@@ -332,7 +338,7 @@ button:hover{
 
 .tmsite{
     margin-top: 1.5rem;
-    height: 65%;
+    height: 54vh;
     width: 49%;
     transform: translateX(5px) rotate(2deg) translateY(5px);
     animation-name: slide-left;
@@ -341,7 +347,7 @@ button:hover{
 
 .tmsite2{
     margin-top: 1.5rem;
-    height: 65%;
+    height: 54vh;
     width: 49%;
     transform: translateX(5px) rotate(2deg) translateY(5px);
     animation-name: slide-right;
@@ -396,16 +402,16 @@ button:hover{
     margin-top: 1rem;
     animation-name: slide-left;
     animation-duration: 4s;
-    height: 80%;
     width: 49.5%;
+    height:54vh;
 }
 
 .imgtwo{
     margin-top: 1rem;
     animation-name: slide-right;
     animation-duration: 4s;
-    height: 80%;
     width: 49.5%;
+    height:54vh;
 }
 
 @keyframes slide-left {
@@ -422,7 +428,7 @@ button:hover{
     margin-top: 1rem;
     animation-name: slide-top;
     animation-duration: 4s;
-    height: 80%;
+    height:54vh;
     width: 49.5%;
 }
 
@@ -430,7 +436,7 @@ button:hover{
     margin-top: 1rem;
     animation-name: slide-bottom;
     animation-duration: 4s;
-    height: 80%;
+    height:54vh;
     width: 49.5%;
 }
 
@@ -479,3 +485,139 @@ button:hover{
     color: #353232    
 }
 
+/* ----------------------------------------------------------------Media Queries-------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 480px){
+
+    /* -----------------Whole Site---------------- */
+    .links li{
+        margin-top: 1%;
+    }
+
+    .links2 li{
+        font-size: 0.23em;
+    }
+
+    h1{
+        font-size: 1.3em;
+    }
+
+    p{
+        font-size: 0.85em;
+        margin-bottom: 0.2em;
+    }
+
+    .linkedin{
+        height: 5%;
+        width: 5%;
+        float:right;
+    }
+
+    .nav-container{
+        font-size: 0.25em;
+        height:auto;
+    }
+
+    .links{
+        top:4%;
+    }
+
+    .img-logo{
+        height: 50%;
+        width: 50%;
+    }
+
+    body{
+        text-align: center;
+        position:relative;
+    }
+    
+    header{
+        height: 13.5vh;
+    }
+
+    footer{
+        height: 5vh;
+    }
+
+    /* ---------------------Index--------------------- */
+
+    .index-first{
+        margin-bottom: 0.25em;
+    }
+
+    .index-second{
+        margin-bottom: 0.25em;
+    }
+
+    .index-third{
+        margin-bottom: 0.25em;
+    }
+
+    .imgone{
+        margin-top: 0.6em;
+        width: 49%;
+        height: 20vh;
+    }
+
+    .imgtwo{
+        margin-top: 0.6em;
+        width: 49%;
+        height: 20vh;
+    }
+
+    .imgthree{
+        margin-top: 0.6em;
+        width: 49%;
+        height:20vh;
+    }
+
+    .imgfour{
+        margin-top: 0.6em;
+        width: 49%;
+        height:20vh;
+    }
+
+    .imgfive{
+        height:25%;
+    }
+
+    /* -------------------------Projects Page------------------------- */
+
+    .links{
+        top:2.5%;
+    }
+
+    /* --------------------------Contact Page---------------------------- */
+
+    .container{
+        height: 93%;
+        width: 100%;
+        box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.997);
+        border-radius: 0.35rem;
+        margin-top: 20%;
+    }
+
+    .container-form{
+        width:95%;
+        height:100%;
+    }
+
+    .input100{
+        width:100%;
+    }
+
+    .connect{
+        width:100%;
+    }
+
+    .form-title{
+        font-size: large;
+    }
+
+    .container.right-side-active{
+        border: 20px solid transparent;
+        box-shadow: 0 0 3.5em rgba(0, 0, 0, 0.997);
+    }
+
+}
