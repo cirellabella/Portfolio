@@ -1055,7 +1055,7 @@ button:hover{
     /* ------------Contact Me Page---------------- */
 
     .contact-body{
-        height: 72vh;
+        height: 69vh;
     }
 
     .links{
@@ -1063,7 +1063,7 @@ button:hover{
     }
 
     .container{
-        height: 65%;
+        height: 57%;
         width: 100%;
         box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.997);
         border-radius: 0.35rem;
@@ -1071,13 +1071,13 @@ button:hover{
     }
 
     .container-form{
-        width:75%;
-        height:85%;
+        width:95%;
+        height:95%;
     }
 
     .input100{
         width:100%;
-        height:80%;
+        height:100%;
     }
 
     .connect{
@@ -1085,6 +1085,6 @@ button:hover{
     }
 
     .form-title{
-        font-size: large;
+        font-size:xx-large;
     }
 }
