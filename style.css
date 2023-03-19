@@ -591,20 +591,21 @@ button:hover{
     /* --------------------------Contact Page---------------------------- */
 
     .container{
-        height: 93%;
+        height: 90%;
         width: 100%;
         box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.997);
         border-radius: 0.35rem;
-        margin-top: 20%;
+        margin-top: 24%;
     }
 
     .container-form{
-        width:95%;
-        height:100%;
+        width:75%;
+        height:80%;
     }
 
     .input100{
         width:100%;
+        height:70%;
     }
 
     .connect{
@@ -620,4 +621,470 @@ button:hover{
         box-shadow: 0 0 3.5em rgba(0, 0, 0, 0.997);
     }
 
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+    /* -----------------Whole Site---------------- */
+
+    .links li{
+        margin-top: 4%;
+    }
+
+    .links2 li{
+        font-size: 0.3em;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    p{
+        font-size: 0.85em;
+        margin-bottom: 0.2em;
+    }
+
+    .linkedin{
+        height: 5%;
+        width: 5%;
+        float:right;
+    }
+
+    .nav-container{
+        font-size: 0.27em;
+        height:auto;
+    }
+
+    .links{
+        top:4%;
+    }
+
+    .img-logo{
+        height: 50%;
+        width: 50%;
+    }
+
+    body{
+        text-align: center;
+        position:relative;
+    }
+    
+    header{
+        height: 17.6vh;
+    }
+
+    footer{
+        height: 6vh;
+    }
+
+    /* ---------------------Index--------------------- */
+
+    .links{
+        top:2.5%;
+    }
+
+    .index-first{
+        margin-bottom: 0.25em;
+    }
+
+    .index-second{
+        margin-bottom: 0.25em;
+    }
+
+    .index-third{
+        margin-bottom: 0.25em;
+    }
+
+    .imgone{
+        margin-top: 0.6em;
+        width: 49%;
+        height: 20vh;
+    }
+
+    .imgtwo{
+        margin-top: 0.6em;
+        width: 49%;
+        height: 20vh;
+    }
+
+    .imgthree{
+        margin-top: 0.6em;
+        width: 49%;
+        height:20vh;
+    }
+
+    .imgfour{
+        margin-top: 0.6em;
+        width: 49%;
+        height:20vh;
+    }
+
+    .imgfive{
+        height:25%;
+    }
+
+    /* -------------------------Projects Page------------------------- */
+
+    .links{
+        top:2.5%;
+    }
+
+    /* --------------------------Contact Page---------------------------- */
+
+    .contact-body{
+        height: 62vh;
+    }
+
+    .links{
+        top:2.5%;
+    }
+
+    .container{
+        height: 80%;
+        width: 100%;
+        box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.997);
+        border-radius: 0.35rem;
+        margin-top: 24%;
+    }
+
+    .container-form{
+        width:75%;
+        height:85%;
+    }
+
+    .input100{
+        width:100%;
+        height:70%;
+    }
+
+    .connect{
+        width:100%;
+    }
+
+    .form-title{
+        font-size: large;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+    /* -----------------Whole Site---------------- */
+
+    .links li{
+        margin-top: 15%;
+    }
+
+    .links2 li{
+        font-size: 0.42em;
+    }
+
+    h1{
+        font-size: 1.7em;
+    }
+
+    p{
+        font-size: 0.85em;
+        margin-bottom: 0.25em;
+    }
+
+    .linkedin{
+        height: 7%;
+        width: 7%;
+        float:right;
+    }
+
+    .nav-container{
+        font-size: 0.42em;
+        height:auto;
+    }
+
+    .links{
+        top:4%;
+    }
+
+    .img-logo{
+        height: 60%;
+        width: 60%;
+    }
+
+    body{
+        text-align: center;
+        position:relative;
+    }
+    
+    header{
+        height: 31vh;
+    }
+
+    footer{
+        height: 6vh;
+    }
+
+    /* ---------------------Index--------------------- */
+
+    .links{
+        top:2.5%;
+    }
+
+    .index-first{
+        margin-bottom: 0.25em;
+    }
+
+    .index-second{
+        margin-bottom: 0.25em;
+    }
+
+    .index-third{
+        margin-bottom: 0.25em;
+    }
+
+    .imgone{
+        margin-top: 0.6em;
+        width: 49%;
+        height: 30vh;
+    }
+
+    .imgtwo{
+        margin-top: 0.6em;
+        width: 49%;
+        height: 30vh;
+    }
+
+    .imgthree{
+        margin-top: 0.6em;
+        width: 49%;
+        height:30vh;
+    }
+
+    .imgfour{
+        margin-top: 0.6em;
+        width: 49%;
+        height:30vh;
+    }
+
+    .imgfive{
+        height:25%;
+    }
+
+    /* --------------------------Contact Page---------------------------- */
+
+    .contact-body{
+        height: 72vh;
+    }
+
+    .links{
+        top:2.5%;
+    }
+
+    .container{
+        height: 80%;
+        width: 100%;
+        box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.997);
+        border-radius: 0.35rem;
+        margin-top: 18%;
+    }
+
+    .container-form{
+        width:75%;
+        height:85%;
+    }
+
+    .input100{
+        width:100%;
+        height:70%;
+    }
+
+    .connect{
+        width:100%;
+    }
+
+    .form-title{
+        font-size: large;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+
+    /* -----------------Whole Site---------------- */
+
+    .links li{
+        margin-top: 15%;
+    }
+
+    .links2 li{
+        font-size: 0.52em;
+    }
+
+    h1{
+        font-size: 1.9em;
+    }
+
+    p{
+        font-size: 0.95em;
+        margin-bottom: 0.25em;
+    }
+
+    .linkedin{
+        height: 7%;
+        width: 7%;
+        /* float:right; */
+        position:relative;
+        left:80%;
+    }
+
+    .nav-container{
+        font-size: 0.52em;
+        height:auto;
+    }
+
+    .links{
+        top:4%;
+    }
+
+    .img-logo{
+        height: 60%;
+        width: 60%;
+    }
+
+    body{
+        text-align: center;
+        position:relative;
+    }
+    
+    header{
+        height: 41vh;
+    }
+
+    footer{
+        height: 8vh;
+    }
+
+    /* ---------------------Index--------------------- */
+
+    .links{
+        top:2.5%;
+    }
+
+    .index-first{
+        margin-bottom: 0.25em;
+    }
+
+    .index-second{
+        margin-bottom: 0.25em;
+    }
+
+    .index-third{
+        margin-bottom: 0.25em;
+    }
+
+    .imgone{
+        margin-top: 0.6em;
+        width: 49%;
+        height: 30vh;
+    }
+
+    .imgtwo{
+        margin-top: 0.6em;
+        width: 49%;
+        height: 30vh;
+    }
+
+    .imgthree{
+        margin-top: 0.6em;
+        width: 49%;
+        height:30vh;
+    }
+
+    .imgfour{
+        margin-top: 0.6em;
+        width: 49%;
+        height:30vh;
+    }
+
+    .imgfive{
+        height:25%;
+    }
+
+    /* --------------------------Contact Page---------------------------- */
+
+    .contact-body{
+        height: 72vh;
+    }
+
+    .links{
+        top:2.5%;
+    }
+
+    .container{
+        height: 80%;
+        width: 100%;
+        box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.997);
+        border-radius: 0.35rem;
+        margin-top: 18%;
+    }
+
+    .container-form{
+        width:75%;
+        height:85%;
+    }
+
+    .input100{
+        width:100%;
+        height:70%;
+    }
+
+    .connect{
+        width:100%;
+    }
+
+    .form-title{
+        font-size: large;
+    }
+
+}
+
+@media only screen and (min-width:1201px){
+    /* -----------------Whole Site---------------- */
+
+    .links li{
+        margin-top: 20%;
+    }
+
+    /* ------------Contact Me Page---------------- */
+
+    .contact-body{
+        height: 72vh;
+    }
+
+    .links{
+        top:2.5%;
+    }
+
+    .container{
+        height: 65%;
+        width: 100%;
+        box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.997);
+        border-radius: 0.35rem;
+        margin-top: 15%;
+    }
+
+    .container-form{
+        width:75%;
+        height:85%;
+    }
+
+    .input100{
+        width:100%;
+        height:80%;
+    }
+
+    .connect{
+        width:100%;
+    }
+
+    .form-title{
+        font-size: large;
+    }
 }
